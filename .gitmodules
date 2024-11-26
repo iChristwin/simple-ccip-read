@@ -4,3 +4,6 @@
 [submodule "lib/blocksmith.js"]
 	path = lib/blocksmith.js
 	url = https://github.com/adraffy/blocksmith.js
+[submodule "lib/unruggable-gateways"]
+	path = lib/unruggable-gateways
+	url = https://github.com/unruggable-labs/unruggable-gateways
