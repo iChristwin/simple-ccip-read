@@ -2,5 +2,13 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+optimizer = true
+optimizer-runs = 1000
+solc-version = "0.8.24"
+
+remappings = [
+   "@unruggable/gateways@0.1.5/=lib/unruggable-gateways/contracts/", # github release @v1.0.0-audit-2024-11-22-rc.1 
+   "@openzeppelin/contracts@5.0.2/=lib/unruggable-gateways/lib/openzeppelin-contracts/contracts/"
+]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
